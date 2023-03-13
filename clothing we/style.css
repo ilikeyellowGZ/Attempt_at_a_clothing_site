@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    
+}
+body { background-image: linear-gradient( 45deg, #DB713B,#E1A180,#5C2F19,#E1A180 );
+    min-height: 100vh;
+}
+nav {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.308);
+    
+    align-items: center;
+
+}
+.search-bar {
+    width: 250%;
+    max-width: 800px;
+    background-color: rgba(255, 255, 255,0.4);
+    display: flex;
+    align-items: center;;
+    border-radius:2px 4px;
+    padding: 10px 20px;
+    margin: 0px 200px 0px 0px;
+}
+
+.logo {
+    height: 130px;
+    width: 150px;
+}
+
+.search-bar input {
+    background-color: rgba(255, 255, 255, 0);
+    flex: 1;
+    border: 0;
+    outline: none;;
+    padding: 14px 20px ;
+    font-size: 20px;
+    color: rgb(34, 37, 34);;
+    
+
+}
+
+.nav-btn    {
+    padding: 15px 58px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    margin-left: 1000px;
+    border: none;
+    transition: all .8s ease-in;
+    cursor: pointer;
+    font-size: 16px;
+
+
+}
+.nav-btn:hover   {
+    padding: 18px 61px;
+    background-color: rgb(255, 255, 255, 0.4);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    margin-left: 1000px;
+    font-size: 18px;
+
+
+}
+
+
+::placeholder {
+    color: rgb(255, 255, 255);
+}
+
+.search-bar button , .search-btn{
+    border: 0;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;;
+    cursor: pointer;
+    color: rgb(18, 18, 177);
+    
+    
+}
+
+
+
+#six {
+    width: 100%;
+    
+    
+}
+
+.main-btn {
+    position: relative;;
+    left    :44%;
+    z-index: 100;
+    top: 500px;
+    
+}
+
+
+
+
+main {
+    display: flex;;
+    width: 100%;
+    height: 90vh;
+    gap: 2px;
+    justify-content: space-around;;
+    margin-top : -80px;
+}
+
+section {
+    border: 2px solid white; 
+    height: 100%;
+    width: 33%;
+}
+
+#one #video-1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+#two #video-2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+#three #video-3 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.main-btn {
+    padding: 40px 80px;
+    background-color: white;
+    margin-right: 30px;
+    color: black ;
+    font-size: 20px ;
+    transition: all 1s ease;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.main-btn:hover {
+    border: 2px solid white ;
+    background-color: rgb(0, 0, 0,0.3);
+    
+    color: rgb(255, 255, 255) ;
+    font-size: 22px ;
+    
+}
+
+footer { 
+    height: 260px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.45);
+    color: white;
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    position: absolute;
+    margin-top: 15px;;
+    
+}
+
+
+.the-one , .the-two , .the-three , .the-four, .the-five {
+    border: 1px solid rgba(0, 0, 0,);
+    margin-top: 40px;
+    width: 18.3%;
+}
+
+.the-five ul li a {
+    color: white;;
+    transition: a 0.7s ease;
+
+}
+.the-one ul li, .the-two ul li , .the-three ul li , .the-four ul li , .the-five ul li  {
+    list-style: none;
+    margin: 3.5px 0px;
+}
+
+.the-five ul li a :hover {
+    color: red;
+    transform: translateX(7px);
+    transition: a 0.7s ease;
+    
+}
+
+.the-one ul li a, .the-two ul li a, .the-three ul li a, .the-four ul li a , .the-five ul li a {
+    color: white;
+    text-decoration: none ;
+    transition: all 0.6s ease;
+    text-align: center !important;;
+}
+
+.the-one ul li a:hover, .the-two ul li a:hover, .the-three ul li a:hover, .the-four ul li a:hover, .the-five ul li a :hover{
+    color: red;
+    transform: translateX(7px);
+    transition: a 0.7s ease;
+    font-size: 17px;
+}
+h1 {
+    font-weight: bolder;
+}
+
+
+.the-five ul li  {
+    color: white;;
+    transition: a 0.7s ease;
+    margin:0px 40px;
+    
+}
+

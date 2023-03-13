@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+body { background-image: linear-gradient( 45deg, rgb(212, 212, 212),rgb(39, 39, 39),lightgray,rgb(0, 0, 0) );
+    min-height: 100vh;
+}
+
+nav {
+    margin: 15px 0px;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    height: 140px;
+    background-color: rgba(0, 0, 0, 0.3);;
+}
+
+.logo {
+    width: 150px;
+    height: 120px;
+}
+
+
+
+.nav__links {
+    
+    list-style: none;
+
+}
+
+.nav__links  li  {
+    display: inline-block;
+    text-decoration: none ;
+}
+
+.nav__links li a {
+    
+    padding: 0px 30px;
+    text-decoration: none ;
+    color: white;
+    font-size: 20px;
+    font-family: monospace;
+    transition: all 0.5s ease;
+}
+
+.nav__links li a:hover {
+    
+    
+    color: rgb(255, 0, 0);
+    font-size: 25px;
+    border-bottom: 1px rgb(88, 1, 1) solid;
+}
+
+
+.nav-btn {
+    padding: 20px 50px;
+    background-color: white;
+    margin-right: 30px;
+    color: black ;
+    font-size: 17px ;
+    transition: all 0.5s ease;
+    border: none;
+    
+}
+
+.nav-btn:hover {
+    border: 2px solid white ;
+    background-color: rgb(0, 0, 0,.0);
+    margin-right: 30px;
+    color: rgb(247, 247, 247) ;
+    font-size: 19px ;
+    
+}
+#main-one{
+    display: flex;
+    background-color: transparent;
+    width: 100%;
+
+    
+}
+
+#men-one .long-pic  {
+    
+    height: 300px;
+    object-fit: cover;
+    transition: all 0.5s ease;
+    
+
+}
+#men-one .long-pic :hover {
+    
+    
+    object-fit: cover;
+    transform: scaleX(1.3px) ;
+    
+
+}
+
+
+#main-two .long-pic  {
+    
+    height: 300px;
+    object-fit: cover;
+    transition: all 0.5s ease;
+    
+}
+
+
+#men-one .short-pic{
+    
+    height: 300px;
+    object-fit: cover;
+    
+}
+
+#main-two .short-pic{
+    
+    height: 300px;
+    object-fit: cover;
+    
+}
+
+#main-one .image-grid {
+	--gap: 15px;
+	box-sizing: border-box;
+	padding: var(--gap);
+    max-width: 1100px;
+    grid-auto-flow: dense;
+	display: grid;
+	grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+	grid-auto-rows: 300px;
+	grid-gap: var(--gap);
+    margin: 40px;
+    transition: all 0.5s ease;
+    
+}
+
+
+/* Anything udner 1024px */
+@media screen and (max-width: 1024px) {
+	.image-grid {
+		--num-cols: 2;
+		--row-height: 200px;
+	}
+}
+
+.kop {
+    height: 60px;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 90px 0px 30px 0px;;
+
+}
+
+.M {
+    padding: 0px 3px;
+    color: black;
+    font-size: 34px;
+}
+.E {
+    padding: 0px 3px;
+    color: rgb(49, 49, 49);
+    font-size: 30px;
+}
+.N {
+    padding: 0px 3px;
+    color: rgb(99, 99, 99);
+    font-size: 40px;
+}
+.W {
+    padding: 0px 3px;
+    color: rgb(27, 27, 27);
+    font-size: 46px;
+
+}
+
+.O {
+    padding: 0px 3px;
+    color: rgb(88, 88, 88);
+    font-size: 31px;
+
+}
+#men-two .image-grid {
+	--gap: 15px;
+	box-sizing: border-box;
+	padding: var(--gap);
+    max-width: 1100px;
+    grid-auto-flow: dense;
+	display: grid;
+	grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+	grid-auto-rows: 300px;
+	grid-gap: var(--gap);
+    margin: 40px;
+    transition: all 0.5s ease;
+    
+}
+
+#main-two{
+    display: flex;
+    background-color: transparent;
+    width: 100%;
+
+    
+}
+
+#men-three .image-grid {
+	--gap: 15px;
+	box-sizing: border-box;
+	padding: var(--gap);
+    max-width: 1100px;
+    grid-auto-flow: dense;
+	display: grid;
+	grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+	grid-auto-rows: 300px;
+	grid-gap: var(--gap);
+    margin: 40px;
+    transition: all 0.5s ease;
+    
+}
+
+#kid-one{
+    display: flex;
+    background-color: transparent;
+    width: 100%;
+
+    
+}
+
+#footer-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 25rem;
+    color: white;
+    height: 160px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.377);
+}
+
+footer p a {
+    text-decoration: none;
+    color: white;
+    padding: 0px 10px;
+}
+
+
+
+
+.space {
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+
+a {
+    text-decoration: none;
+}
+#footer-main .links {
+    padding: 10px 0px;
+}
